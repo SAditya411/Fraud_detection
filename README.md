@@ -23,31 +23,31 @@ This project involves building a machine learning model to proactively detect fr
 ## 📊 Exploratory Data Analysis
 
 ### ✅ Class Imbalance in `isFraud`
-![Class Imbalance](images\fraud_vs_nonfraud.png)
+![Class Imbalance](images\fraud_vs_nonfraud.jpg)
 
 ---
 
 ### ✅ Fraud Distribution by Transaction Type
 Only `TRANSFER` and `CASH_OUT` types are fraudulent.
-![Fraud by Type](images\fraud_by_type.png)
+![Fraud by Type](images\fraud_by_type.jpg)
 
 ---
 
 ### ✅ Hourly Fraudulent Transactions Over Time
 This plot helps understand **when fraud typically occurs**, based on the `step` column (representing hourly steps in the simulation).
 
-![Hourly Fraud](images\Hourly Fraudulent Transactions Over Time.png)
+![Hourly Fraud](images\Hourly_Fraudulent_Transactions_Over_Time.jpg)
 
 ---
 
 ### ✅ Transaction Amount by Fraud Class
 Fraudulent transactions usually have high amounts.
-![Amount Boxplot](images\amount_vs_isfraud_boxplot.png)
+![Amount Boxplot](images\amount_vs_isfraud_boxplot.jpg)
 
 ---
 
 ### ✅ Correlation Heatmap of Features
-![Correlation Heatmap](images\correlation_heatmap.png)
+![Correlation Heatmap](images\correlation_heatmap.jpg)
 
 
 ---
